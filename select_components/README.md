@@ -14,7 +14,7 @@ playwright는 서버를 실행해야 테스트를 진행 할 수 있습니다.
 
 src
  ┣ components <br/>
- ┃ ┣ Icons                  -> SVG ICON <br/>
+ ┃ ┣ Icons                   -> SVG ICON <br/>
  ┃ ┣ Blank                  -> 여백설정을 위한 임시 컴포넌트 <br/>
  ┃ ┣ MovieList.tsx          -> 영화 리스트 컴포넌트 <br/>
  ┃ ┣ SearchInput.tsx        -> 검색 컴포넌트 <br/>
