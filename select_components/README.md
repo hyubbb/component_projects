@@ -1,17 +1,20 @@
 # React + TypeScript + Vite<br/>
- <br/>
+
+
 ## 실행 명령어<br/>
 npm run dev<br/>
- <br/>
+
+
 ## test 명령어<br/>
 npm run test  -> All test<br/>
 npm run test:jest<br/>
 npm run test:playwright<br/>
-<br/>
+
+
 `jest`로 select의 옵션타입을 테스트 하였고 <br/>
 `playwright`로 나머지 테스트를 진행 하였습니다. <br/>
 playwright는 서버를 실행해야 테스트를 진행 할 수 있습니다. <br/>
-<br/>
+
 src
  ┣ components <br/>
  ┃ ┣ Icons                   -> SVG ICON <br/>
@@ -34,7 +37,7 @@ src
  ┣ App.tsx <br/>
  ┣ main.tsx <br/>
  ┗ vite-env.d.ts <br/>
- <br/>
+
  tests <br/>
  ┣ jest <br/>
  ┃ ┗ fetchData.spec.tsx   -> select의 옵션타입 테스트를 위한 jest 테스트 파일 <br/>
