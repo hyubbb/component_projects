@@ -1,12 +1,12 @@
-# React + TypeScript + Vite
- 
-## 실행 명령어
-npm run dev
- 
-## test 명령어
-npm run test  -> All test
-npm run test:jest
-npm run test:playwright
+# React + TypeScript + Vite<br/>
+ <br/>
+## 실행 명령어<br/>
+npm run dev<br/>
+ <br/>
+## test 명령어<br/>
+npm run test  -> All test<br/>
+npm run test:jest<br/>
+npm run test:playwright<br/>
 <br/>
 `jest`로 select의 옵션타입을 테스트 하였고 <br/>
 `playwright`로 나머지 테스트를 진행 하였습니다. <br/>
