@@ -7,11 +7,11 @@ npm run dev
 npm run test  -> All test
 npm run test:jest
 npm run test:playwright
-
-`jest`로 select의 옵션타입을 테스트 하였고
-`playwright`로 나머지 테스트를 진행 하였습니다.
-playwright는 서버를 실행해야 테스트를 진행 할 수 있습니다.
-
+<br/>
+`jest`로 select의 옵션타입을 테스트 하였고 <br/>
+`playwright`로 나머지 테스트를 진행 하였습니다. <br/>
+playwright는 서버를 실행해야 테스트를 진행 할 수 있습니다. <br/>
+<br/>
 src
  ┣ components <br/>
  ┃ ┣ Icons                   -> SVG ICON <br/>
