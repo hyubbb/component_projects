@@ -1,6 +1,5 @@
 # React + TypeScript + Vite<br/>
 
-
 ## 실행 명령어<br/>
 npm run dev<br/>
 
@@ -15,7 +14,7 @@ npm run test:playwright<br/>
 `playwright`로 나머지 테스트를 진행 하였습니다. <br/>
 playwright는 서버를 실행해야 테스트를 진행 할 수 있습니다. <br/>
 
-src
+src <br/>
  ┣ components <br/>
  ┃ ┣ Icons                   -> SVG ICON <br/>
  ┃ ┣ Blank                  -> 여백설정을 위한 임시 컴포넌트 <br/>
@@ -43,3 +42,19 @@ src
  ┃ ┗ fetchData.spec.tsx   -> select의 옵션타입 테스트를 위한 jest 테스트 파일 <br/>
  ┗ playwright <br/>
  ┃ ┗ playwright.spec.ts   -> 그 외의 테스트를 위한 playwright 테스트 파일 <br/>
+
+
+## 기능
+
+select를 클릭했을때 리스트 온/오프
+마우스 / 키보드로 옵션 선택가능
+검색중에 외부 클릭했을때 inputValue =""
+  선택한 옵션이 있을때는 선택된 옵션을 불러와서 표시
+옵션의 항목중에 가장 넓은 옵션의 width를 기준으로 select의 폭 설정
+select의 포지션을 기준으로 리스트가 위, 아래로 유동적으로 동작
+
+
+삭제버튼
+  옵션값이 있으며, hover 시에 나타남
+  옵션값이 있으며, 리스트가 오픈 상태일때 나타남
+
